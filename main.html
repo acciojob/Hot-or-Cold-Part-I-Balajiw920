@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hot or Cold Game</title>
 </head>
 <body>
-	<h1>Hot or Cold Game</h1>
-	<p>Guess a number between 1 and 100.</p>
-
-	<p id="response"></p>
-
-	<label for="guess">Enter your guess:</label>
-	<input type="number" id="guess" name="guess" min="1" max="100">
-	<button onclick="checkGuess()">Submit</button>
-         <script src="./script.js"></script><!-- Write the logic in script.js -->
-         </script>
-
-</body>
+	<!-- p tag -->
+	<p id="main">
+		I am learning to generate random number. I will be able to handle randomness in any of my applications that needs it. Press the button to get a random number.
+	</p>
+    <p id = "user">Enter a Guessed Number </p>
+    <input id= "guess"></input><br><br>
+	<!-- button -->
+	
+	<button id="btn" onclick="randomNumGenerator()">Generate Random Number</button>
+	
+	<p id="num"></p>
+    <!-- p tag -->
+    <p id = "respond"></p>  <!-- This is the respone (Hot or Cold) -->
+    <script type="text/javascript" src="./script.js">  <!-- Write the logic in script.js -->
+</script>
+  </body>
 </html>
